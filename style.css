@@ -24,6 +24,10 @@
 body {
   background-color: var(--grey-100);
 }
+.wrapper{
+  display:grid;
+  place-items:center;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -119,3 +123,4 @@ h2 {
     grid-column: 1/3;
   }
 }
+
