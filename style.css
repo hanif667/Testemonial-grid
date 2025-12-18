@@ -25,8 +25,10 @@ body {
   background-color: var(--grey-100);
 }
 .wrapper{
-  display:grid;
-  place-items:center;
+   min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 48px 18px;
 }
 .container {
   display: grid;
@@ -123,4 +125,5 @@ h2 {
     grid-column: 1/3;
   }
 }
+
 
